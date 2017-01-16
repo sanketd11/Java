@@ -42,8 +42,6 @@ public class QuickSort {
     
     public static void main(String[] args) {
         int[] numbers={3,6,1,8,4,12,5,2,10,7,9,11,15,23,16,17,14};
-        int[] sorted= new int[100];        
-        
         System.out.println("Array before Sorting: ");
         for (int i=0;i<numbers.length;i++){
             System.out.print(numbers[i]+" ");
